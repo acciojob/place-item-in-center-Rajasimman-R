@@ -1,8 +1,4 @@
-*{
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
-}
+
 .holder {
     display: flex; /* Use flexbox */
     justify-content: center; /* Center horizontally */
@@ -10,7 +6,7 @@
     width: 100vw; /* Full viewport width */
     height: 100vh; /* Full viewport height */
 }
-.item{
+.item-1{
 	width:100px;
 	height:100px;
 	background-color:red;
