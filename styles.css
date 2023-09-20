@@ -3,10 +3,12 @@
 	padding:0;
 	box-sizing:border-box;
 }
-.holder{
-  
-  display:flex;
-  justify-content:center;
+.holder {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
 }
 .item{
 	width:100px;
