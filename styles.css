@@ -1,16 +1,23 @@
 .holder {
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    width: 100vw; /* Full viewport width */
-    height: 100vh; /* Full viewport height */
-    margin: 0; /* Remove any default margin */
-    padding: 0; /* Remove any default padding */
+  /* Make the holder a flex container. */
+  display: flex;
+
+  /* Take the full viewport width and height. */
+  width: 100vw;
+  height: 100vh;
+
+  /* Center the item-1 element on the main axis (horizontally). */
+  justify-content: center;
+
+  /* Center the item-1 element on the cross axis (vertically). */
+  align-items: center;
 }
 
-/* Apply styles to item-1 */
 .item-1 {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+  /* Set the width and height of the item-1 element. */
+  width: 100px;
+  height: 100px;
+
+  /* Set the background color of the item-1 element to red. */
+  background-color: red;
 }
