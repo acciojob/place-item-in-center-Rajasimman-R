@@ -3,8 +3,8 @@
   display: flex;
 
   /* Take the full viewport width and height. */
-  width: 100vw;
-  height: 100vh;
+  width:100vw;
+  height:100vh;
 
   /* Center the item-1 element on the main axis (horizontally). */
   justify-content: center;
